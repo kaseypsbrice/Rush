@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: red 1px solid;
+}
+
+/* Use section classes to align the information 
+throughout the pages */
+
+body {
+    background-image: url(./example.jpg);
+    background-color: white;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    
+}
+
+.side-nav {
+    position: fixed;
+    top: 330px;
+    left: 0;
+    z-index: 1;
+}
+/* Fixed positioning of side nav on the page */
+
+.circles {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin: 40px 40px;
+}
+/* Plain circles with margin seperating them */
+
+.first-sect {
+    margin-top: 450px;
+    margin-left: 300px;
+}
+
+.home-header {
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile-name {
+    text-align: left;
+    left: 50px;
+}
+
+.profile-txt {
+    text-align: left;
+}
+
+.profile-img {
+    text-align: right;
+}
