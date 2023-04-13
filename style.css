@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    box-shadow: none;
+    outline: none;
     /* border: 1px red solid; */
 }
 
@@ -45,6 +48,8 @@ body html {
     width: 100vw;
     background-color: #1e1e1e;
     float: left;
+    box-shadow: none;
+    outline: 0;
 }
 
 h1 {
@@ -64,4 +69,26 @@ h1 {
     left: 50%;
     top: 45%;
     color: #e1e1e1;
+}
+
+#Alex {
+    font-size: 10vh;
+    color: #e1e1e1;
+    bottom: 1%;
+    right: 1%;
+    position: absolute;
+    z-index: 3;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+#Kasey {
+    font-size: 10vh;
+    color: #1e1e1e;
+    top: 1%;
+    left: 1%;
+    position: absolute;
+    z-index: 3;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
