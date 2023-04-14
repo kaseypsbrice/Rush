@@ -5,26 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>KB - Resume</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://kit.fontawesome.com/783af80141.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
         <div class="side-nav">
             <ul>
-                <li><a href="#home"><div class="circles"></div></a></li>
                 <!-- Home -->
-                <li><a href="#profile"><div class="circles"></div></a></li>
+                <li><a href="#home"><div class="circles"></div>
+                    <div class="center-icon-house"><i class="fa-solid fa-house" style="color: #949494;"></i></div>
+                </a></li>
                 <!-- Profile -->
-                <li><a href="#experience"><div class="circles"></div></a></li>
+                <li><a href="#profile"><div class="circles"></div>
+                    <div class="center-icon-profile"><i class="fa-solid fa-address-card" style="color: #949494;"></i></div>
+                </a></li>
                 <!-- Experience -->
-                <li><a href="#contact"><div class="circles"></div></a></li>
+                <li><a href="#experience"><div class="circles"></div>
+                    <div class="center-icon-resume"><i class="fa-solid fa-file" style="color: #949494;"></i></div>
+                </a></li>
                 <!-- Contact -->
+                <li><a href="#contact"><div class="circles"></div>
+                    <div class="center-icon-contact"><i class="fa-solid fa-envelope" style="color: #949494;"></i></div>
+                </a></li>
             </ul>
         </div>
-        
+
         <section class="first-sect" id="home">
             <div>
                 <header class="home-header">Kasey Brice</header>
-                <p>Software engineering student at 42 Adelaide
+                <p>Software Developer & 42 Adelaide Student | 2023
                 </p>
                 <ul>
                     <li></li>
@@ -35,20 +44,46 @@
             </div>
         </section>
 
-        <section>
-            <header>Profile</header>
-            <div class="profile-name">
-                <h2>Kasey Brice</h2>
-            </div>
-            <div class="profile-txt">
-                <p>
-                    Dedicated student and developing software engineer with experience in highly 
-                    collaborative environments and a passion for learning new skills. 
-                </p>
-            </div>
-            <div class="profile-img">
-                <img>
-            </div>
+        <section class="second-sect" id="profile">
+                <div class="profile-name">
+                    <header class="profile-header">About Me</header>
+                </div>
+                <div class="profile-txt">
+                    <p>
+                        Dedicated student and developing software engineer with experience in highly 
+                        collaborative environments and a passion for learning new skills. <br>
+                    </p>
+                </div>
+                    <img src="temporary1.png" class="profile-img">
+                <div class="beside-img">
+                    <h2>Skills</h2>
+                    <ul class="list-of-bars">
+                        <li>C</li>
+                            <div class="wrapper">
+                                <div class="progress-bar">
+                                    <span class="progress-bar-fill" style="width:70%;"></span>
+                                </div>
+                            </div>
+                        <li>HTML</li>
+                            <div class="wrapper">
+                                <div class="progress-bar">
+                                    <span class="progress-bar-fill" style="width:35%;"></span>
+                                </div>
+                            </div>
+                        <li>CSS</li>
+                            <div class="wrapper">
+                                <div class="progress-bar">
+                                    <span class="progress-bar-fill" style="width:45%;"></span>
+                                </div>
+                            </div>
+                        <li>JavaScript</li>
+                            <div class="wrapper">
+                                <div class="progress-bar">
+                                    <span class="progress-bar-fill" style="width:10%;"></span>
+                                </div>
+                            </div>
+                    </ul>
+                </div>
         </section>
 
         <section>
