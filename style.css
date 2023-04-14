@@ -56,6 +56,7 @@ entirely when sliding in. Check bottom right corner. */
     background-color: #888;
     animation: span-center 2s forwards;
     animation-delay: 2s;
+    pointer-events: none;
 }
 
 @keyframes span-center {
@@ -100,12 +101,14 @@ h1 {
     font-size: auto;
     position: absolute;
     z-index: 2;
+    pointer-events: none;
 }
 
 #res { 
     right: 50%;
     top: 25%;
     color: #1e1e1e;
+    pointer-events: none;
 }
 
 #ume {
@@ -113,6 +116,7 @@ h1 {
     top: 45%;
     color: #e1e1e1;
     opacity: 0;
+    pointer-events: none;
 }
 
 .txt-float-ume {
@@ -143,6 +147,7 @@ h1 {
     writing-mode: vertical-lr;
     text-orientation: upright;
     opacity: 0;
+    pointer-events: none;
 }
 
 .txt-float-a {
@@ -151,6 +156,7 @@ h1 {
     animation-iteration-count: 1;
     animation-delay: 2s;
     animation-fill-mode: forwards;
+    pointer-events: none;
 }
 /* Animation to float "Alex" onto the screen after
 delaying it slightly so that the initial slide in of the background
@@ -169,6 +175,7 @@ whatever opacity or conditions are set at the end of the animation. */
     100% {
         margin-bottom: 0;
         opacity: 1.0;
+        pointer-events: none;
     }
 }
 
@@ -182,6 +189,7 @@ whatever opacity or conditions are set at the end of the animation. */
     writing-mode: vertical-lr;
     text-orientation: upright;
     opacity: 0;
+    pointer-events: none;
 }
 
 .txt-float-k {
