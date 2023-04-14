@@ -160,7 +160,7 @@ whatever opacity or conditions are set at the end of the animation. */
 
 @keyframes a-float {
     0% {
-        margin-bottom: -5%;
+        margin-bottom: 5%;
         opacity: 0
     } 
     50% {
