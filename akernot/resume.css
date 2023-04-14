@@ -1,0 +1,137 @@
+body {
+    background-color: #fff;
+    color: #e1e1e1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 3;
+    right: 1%;
+    top: 63vh;
+    background-color: #2d3339;
+    height: 140px;
+    width: 150px;
+}
+
+#img {
+    position: absolute;
+    float: left;
+    top: 7%;
+    left: 5%;
+    width: 30%;
+    height: auto;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.5);
+}
+
+.headingLine {
+    position: absolute;
+    background-color: #e1e1e1;
+    top: 60%;
+    left: 37%;
+    width: 1%;
+    height: 25%;
+}
+
+.resumeHeading {
+    top: 0px;
+    background-image: URL("clouds.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.resumeHeading h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    left: 40%;
+    position: relative;
+    top: 60%;
+    margin-top: 0;
+    padding-bottom: 2%;
+}
+
+.resumeHeading h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vw;
+    left: 40%;
+    position: relative;
+    margin-top: 0;
+    top: 50%;
+}
+
+.resumeBody {
+    color: #adbac7;
+    padding: 1%;
+    position: relative;
+    top: 100vh;
+    background-color: #24292e;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+hr {
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #adbac7;
+}
+
+.resumeText {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 10%;
+    top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #2d3339;
+}
+
+.right {
+    font-weight: normal;
+    font-style: unset;
+    text-align: right;
+    float: right;
+    font-size: 16px;
+}
+
+a {
+    color: #e1e1e1;
+}
+
+.icons img{
+    filter: invert(16%) sepia(10%) saturate(362%) hue-rotate(169deg) brightness(87%) contrast(88%);
+    position: absolute;
+    width: 2%;
+    height: auto;
+}
+
+.icons p {
+    float: right;
+    position: absolute;
+    left: 15% !important;
+    margin-top: 0;
+}
+.website {
+    position: absolute;
+    top: 90%;
+    left: 11%;
+}
+.insta {
+    position: absolute;
+    top: 92%;
+    left: 11%;
+}
+.linkedin {
+    top: 94%;
+    left: 11%;
+}
